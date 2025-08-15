@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>3D Orb</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Interactive 3D Orb</title>
+  </head>
+  <body>
     <canvas id="orb-canvas"></canvas>
     <div class="hero-content">
-        <h1>3D Orb</h1>
-        <p>3D Orb</p>
-        <a href="#" class="cta-button">Click Here For Nothing</a>
+      <h1>Interactive 3D Orb</h1>
+      <p>
+        Move your mouse to interact with the particles and use the panel to
+        customize the scene.
+      </p>
+      <a href="#" class="cta-button">Explore</a>
     </div>
 
+    <div id="gui-container"></div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lil-gui@0.17"></script>
     <script src="scripts.js"></script>
-</body>
+  </body>
 </html>
